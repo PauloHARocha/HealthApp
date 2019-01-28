@@ -1,0 +1,126 @@
+<resources>
+    <!--Manifest-->
+    <string name="app_name">HealthApp</string>
+    <string name="responsavel">Responsável</string>
+    <string name="editar_responsavel">Editar Responsável</string>
+    <string name="novo_responsavel">Adicionar Responsável</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+
+    <string name="principal_tab_manha">Manhã</string>
+    <string name="principal_tab_tarde">Tarde</string>
+    <string name="principal_tab_noite">Noite</string>
+
+    <string name="drawer_paciente">Paciente</string>
+    <string name="drawer_responsavel">Responsável</string>
+    <string name="drawer_tratamento">Tratamento</string>
+    <string name="drawer_sobre">Sobre</string>
+    <string name="drawer_historico">Histórico</string>
+
+    <string name="menu_confirmar">Confirmar</string>
+    <string name="menu_editar">Editar</string>
+
+    <string name="resposta_incompleto">Cadastro incompleto</string>
+
+    <!--Medicamento-->
+    <!--Layout-->
+    <string name="medicamento_nome">Medicamento</string>
+    <string name="medicamento_nome_exemplo">Rifamcina</string>
+    <string name="medicamento_quantidade">Quantidade</string>
+    <string name="medicamento_quantidade_exemplo">4</string>
+    <string name="medicamento_cor">Cor</string>
+    <string name="medicamento_lembrete">Horário do Lembrete</string>
+    <string name="medicamento_lembrete_exemplo">08:00</string>
+    <string name="medicamento_datainicio">Data de início</string>
+    <string name="medicamento_datainicio_exemplo">16/07/2016</string>
+    <string name="medicamento_datafinal">Data de fim</string>
+    <string name="medicamento_datafinal_exemplo">21/07/2018</string>
+    <!--Activity-->
+    <string name="medicamento_resposta_inserido">Medicamento inserido</string>
+    <string name="medicamento_tittle_adicionar">Adicionar Medicamento</string>
+    <string name="medicamento_resposta_nao_inserido">Medicamento descartado</string>
+
+    <!--Novo Tratamento-->
+    <!--Activity-->
+    <string name="novotratamento_toolbar_title">Adicionar Tratamento</string>
+    <string name="novotratamento_resposta_descartado">Tratamento descartado</string>
+    <string name="novotratamento_resposta_semnome">Tratamento sem nome</string>
+    <string name="novotratamento_resposta_inserido">Tratamento inserido</string>
+    <!--Layout-->
+    <string name="novotratamento_nome">Nome do tratamento</string>
+    <string name="novotratamento_duracao">Duração do tratamento</string>
+    <string name="novotratamento_data">SEG, 06/2016</string>
+    <string name="novotratamento_dia">20</string>
+
+
+    <!--Responsável-->
+    <!--Activity-->
+    <string name="responsavel_resposta_descartado">Alterações descartadas</string>
+    <string name="responsavel_resposta_inserido">Responsável inserido</string>
+    <string name="responsavel_resposta_nao_inserido">Responsável descartado</string>
+    <string name="responsavel_resposta_alterado">Alterações efetuadas</string>
+    <!--Layout-->
+    <string name="responsavel_nome">Nome do responsável</string>
+    <string name="responsavel_cpf">CPF</string>
+    <string name="responsavel_telefone">Telefone</string>
+    <string name="responsavel_endereco">Endereço</string>
+
+    <!--Paciente-->
+    <string name="toolbar_paciente_editar">Editar Paciente</string>
+    <string name="toolbar_paciente">Paciente</string>
+    <!--Activity-->
+    <string name="paciente_resposta_descartado">Alterações descartadas</string>
+    <string name="paciente_resposta_nao_inserido">Paciente não inserido</string>
+    <string name="paciente_resposta_inserido">Paciente inserido</string>
+    <string name="paciente_resposta_dados_alterados">Dados alterados</string>
+    <!--Layout-->
+    <string name="paciente_nome">Nome do Paciente</string>
+    <string name="paciente_responsavel">Responsável</string>
+    <string name="paciente_responsavel_aviso">Não há responsável cadastrado</string>
+    <string name="paciente_registro_unidade">N° de registro da unidade de saúde</string>
+    <string name="paciente_cartao_nacionalsaude">Cartão nacional de saúde</string>
+    <string name="paciente_data_nascimento">Data de nascimento</string>
+    <string name="paciente_data_nascimento_exemplo">dd/mm/aaaa</string>
+    <string name="paciente_telefone">Telefone</string>
+    <string name="paciente_endereco">Endereço</string>
+    <string name="paciente_tuberculose">Tuberculose</string>
+    <string name="paciente_tuberculose_pulmonar">Pulmonar</string>
+    <string name="paciente_tuberculose_extrapulmonar">Extrapulmonar</string>
+    <string name="paciente_tuberculose_mista">Mista</string>
+
+    <!--Sobre-->
+    <!--Layout-->
+    <string name="sobre_nome_projeto">HealthApp</string>
+    <string name="sobre_desenvolvido">Desenvolvido por&#160;</string>
+    <string name="sobre_ludus_lab">Ludus Lab</string>
+    <string name="sobre_desenvolvedores">Desenvolvedores</string>
+    <string name="sobre_produtores">Produtores</string>
+    <string name="sobre_mestrando">Mestrando em engenharia de produção</string>
+    <string name="sobre_consideracoes">Health App foi desenvolvido\nusando software de código aberto</string>
+
+    <!--Mensagens sobre Tuberculose-->
+    <string name="mensagem_nao_pare">NÃO PARE O TRATAMENTO!</string>
+    <string name="mensagem1">A tuberculose atinge principalmente os pulmões.</string>
+    <string name="mensagem2">A tuberculose tem cura, desde que faça todo o tratamento.</string>
+    <string name="mensagem3">Náuseas, vômitos, dor no estômago. Procure um posto de saúde.</string>
+    <string name="mensagem4">NÃO precisa separar: copos, talheres ou pratos.</string>
+    <string name="mensagem5">EVITE lugares fechados e sem ventilação.</string>
+    <string name="mensagem6">EVITE o fumo e a bebida alcoolica.</string>
+    <string name="mensagem7">VOCÊ já fez o exame de HIV/AIDS?</string>
+    <string name="mensagem8">É necessário completar todo o tratamento para ser curado.</string>
+    <string name="mensagem9">A medicação deve ser tomada no mesmo horário, em dose única.</string>
+    <string name="mensagem10">O principal sintoma da tuberculose é a TOSSE.</string>
+    <string name="mensagem11">Você está se sentindo melhor?</string>
+    <string name="mensagem12">O tratamento dura pelo menos 6 meses.</string>
+    <string name="mensagem13">Deixe sua moradia bem ventilada e com entrada de luz solar.</string>
+    <string name="mensagem14">TENHA uma boa alimentação.</string>
+    <string name="mensagem15">FAÇA o exame do escarro no final de cada mês.</string>
+    <string name="mensagem16">PESSOAS que moram com você precisam ser examinadas.</string>
+    <string name="mensagem17">TODOS os pacientes devem fazer o exame de HIV/AIDS.</string>
+    <string name="mensagem18">A medicação deve ser tomada todos os dias em dose única.</string>
+    <string name="mensagem19">NAS primeiras semanas você vai se sentir melhor.</string>
+
+</resources>

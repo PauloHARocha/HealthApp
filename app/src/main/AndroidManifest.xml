@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.paulo.healthapp" >
+
+    <!--  Internet Permission -->
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.VIBRATE"/>
+    <uses-permission android:name="android.permission.WRITE_SETTINGS"/>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/icon"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".Activity.Splash.SplashLudusActivity"
+            android:theme="@style/SplashTheme" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Activity.Splash.SplashAppActivity"
+            android:theme="@style/SplashTheme" >
+        </activity>
+        <activity
+            android:name=".Activity.PrincipalActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar" >
+        </activity>
+        <activity
+            android:name=".Activity.Responsavel.ResponsavelListActivity"
+            android:label="@string/responsavel"
+            android:theme="@style/AppTheme.NoActionBar" >
+        </activity>
+        <activity
+            android:name=".Activity.Responsavel.ResponsavelEditarActivity"
+            android:label="@string/editar_responsavel"
+            android:theme="@style/AppTheme.NoActionBar" >
+        </activity>
+        <activity
+            android:name=".Activity.Responsavel.ResponsavelNovoActivity"
+            android:label="@string/novo_responsavel"
+            android:theme="@style/AppTheme.NoActionBar" >
+        </activity>
+        <activity
+            android:name=".Activity.Paciente.PacienteEditarActivity"
+            android:label="@string/toolbar_paciente_editar"
+            android:theme="@style/AppTheme.NoActionBar" >
+        </activity>
+        <activity
+            android:name=".Activity.Paciente.PacienteNovoActivity"
+            android:label="Adicionar Paciente"
+            android:theme="@style/AppTheme.NoActionBar" >
+        </activity>
+        <activity
+            android:name=".Activity.Paciente.PacienteActivity"
+            android:label="@string/toolbar_paciente"
+            android:theme="@style/AppTheme.NoActionBar" >
+        </activity>
+        <activity
+            android:name=".Activity.Tratamento.TratamentoListActivity"
+            android:label="@string/drawer_tratamento"
+            android:theme="@style/AppTheme.NoActionBar" >
+        </activity>
+        <activity
+            android:name=".Activity.Tratamento.TratamentoNovoActivity"
+            android:label="@string/novotratamento_toolbar_title"
+            android:theme="@style/AppTheme.NoActionBar" >
+        </activity>
+        <activity
+            android:name=".Activity.Medicamento.MedicamentoNovoActivity"
+            android:label="@string/medicamento_tittle_adicionar"
+            android:theme="@style/AppTheme.NoActionBar" >
+        </activity>
+        <activity
+            android:name=".Activity.Medicamento.MedicamentoVisualizarActivity"
+            android:label="@string/medicamento_nome"
+            android:theme="@style/AppTheme.NoActionBar" >
+        </activity>
+        <activity
+            android:name=".Activity.HistoricoActivity"
+            android:label="@string/drawer_historico"
+            android:theme="@style/AppTheme.NoActionBar" >
+        </activity>
+        <activity
+            android:name=".Activity.SobreActivity"
+            android:label="@string/drawer_sobre">
+        </activity>
+        <activity
+            android:name=".Activity.TutorialActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+        </activity>
+        <activity
+            android:name=".Activity.DetalhamentoActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+        </activity>
+
+        <receiver android:name=".AlertReceiver"/>
+    </application>
+
+</manifest>

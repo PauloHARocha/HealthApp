@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+        <item android:id="@+id/nav_paciente" android:icon="@drawable/menu_paciente"
+            android:title="@string/drawer_paciente" />
+        <item android:id="@+id/nav_responsavel" android:icon="@drawable/menu_responsaveis"
+            android:title="@string/drawer_responsavel" />
+        <item android:id="@+id/nav_tratamento" android:icon="@drawable/menu_tratamentos"
+            android:title="@string/drawer_tratamento" />
+        <item android:id="@+id/nav_historico" android:icon="@drawable/menu_historico"
+            android:title="@string/drawer_historico" />
+        <item android:id="@+id/nav_sobre" android:icon="@drawable/menu_sobre"
+            android:title="@string/drawer_sobre" />
+        <!--<item android:id="@+id/nav_tutorial" android:icon="@android:drawable/ic_menu_help"
+            android:title="Tutorial" />-->
+        <item android:id="@+id/nav_logout" android:icon="@android:drawable/ic_lock_idle_lock"
+            android:title="Logout" />
+
+</menu>

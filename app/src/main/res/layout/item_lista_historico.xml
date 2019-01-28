@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="10dp">
+
+         <ImageView
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:id="@+id/lista_historico_iv_pilula"
+            android:src="@mipmap/pilula_cinza"
+             android:layout_alignParentStart="true"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="data"
+            android:layout_toRightOf="@+id/lista_historico_iv_pilula"
+            android:layout_centerInParent="true"
+            android:textColor="@android:color/black"
+            android:id="@+id/lista_historico_tv_data"
+            />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_alignParentEnd="true"
+        android:layout_centerInParent="true"
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Hora prevista: 08:00"
+            android:layout_alignParentEnd="true"
+            android:textColor="@android:color/black"
+            android:id="@+id/lista_historico_tv_horaPrevista"
+
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Hora real: 10:00"
+            android:layout_alignParentEnd="true"
+            android:layout_below="@id/lista_historico_tv_horaPrevista"
+            android:textColor="@android:color/black"
+            android:id="@+id/lista_historico_tv_horaReal"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Tomou 3/4"
+            android:layout_alignParentEnd="true"
+            android:layout_centerInParent="true"
+            android:layout_below="@id/lista_historico_tv_horaReal"
+            android:textColor="@android:color/black"
+            android:id="@+id/lista_historico_tv_qtdTomados"
+            />
+    </LinearLayout>
+
+
+
+
+</RelativeLayout>

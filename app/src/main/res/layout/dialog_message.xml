@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="20dp"
+    android:theme="@style/AppTheme.TextInputLayout">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/holo_red_dark"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/mensagem_tuberculose"
+            android:textColor="@color/caldroid_white"
+            android:layout_margin="10dp"
+            android:textSize="30dp"
+            android:textAlignment="center"
+            android:text="@string/mensagem1"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/caldroid_white"
+            android:layout_margin="10dp"
+            android:textSize="25dp"
+            android:textAlignment="center"
+            android:text="@string/mensagem_nao_pare"/>
+
+    </LinearLayout>
+
+</LinearLayout>

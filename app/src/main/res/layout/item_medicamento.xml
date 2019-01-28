@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="6dp"
+    android:layout_marginBottom="6dp"
+    android:id="@+id/item_medicamento_layout"
+    >
+
+    <TextView
+        android:layout_marginTop="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Informações medicamento"
+        android:layout_alignParentStart="true"
+        android:id="@+id/item_medicamento_info"
+        android:gravity="center_vertical"
+        android:layout_marginRight="4dp"
+        android:textColor="@color/colorPrimary"/>
+    <!--<ImageView
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:scaleType="fitCenter"
+        android:src="@drawable/amarelo"
+        android:id="@+id/item_medicamento_cor"
+        android:layout_alignTop="@+id/item_medicamento_info"
+        android:layout_toEndOf="@+id/item_medicamento_info" />
+-->
+</RelativeLayout>

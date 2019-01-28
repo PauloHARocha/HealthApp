@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#019587</color>
+    <color name="colorPrimaryDark">#009045</color>
+    <color name="colorAccent">#a2d5d0</color>
+
+    <color name="transparent">#00000000</color>
+
+    <color name="cinza">#d0d0d0</color>
+
+    <color name="amarelo">#FFFCF37B</color>
+    <color name="vermelho">#FFFD7D82</color>
+    <color name="verde">#FF6CFB77</color>
+    <color name="azul">#FF00FDFE</color>
+    <color name="roxo">#FF9E82FE</color>
+    <color name="rosa">#FFE8A0DE</color>
+    <color name="branco">#FFFFFF</color>
+
+
+    <!--tutorial-->
+    <!-- dots inactive colors -->
+
+    <color name="dot_desativado">#14a895</color>
+
+    <!-- dots active colors -->
+
+    <color name="dot_ativado">#8cf9eb</color>
+
+
+</resources>
