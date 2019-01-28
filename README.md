@@ -1,4 +1,4 @@
-# HealthApp: A Health tool to treat Tubercolosi.
+# HealthApp: A Health tool to help treat Tubercolosis.
 
 > Ludus Lab
 
